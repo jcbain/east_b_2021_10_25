@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+#channels {
+  border: 3px dashed #151515;
+  border-radius: 5px;
+  color: coral;
+}
+
+#channels.alert {
+  color: red;
+  border-color: red;
+}
+
+.some-class-the-doesnt-exist {
+  padding: 10px;
+}
