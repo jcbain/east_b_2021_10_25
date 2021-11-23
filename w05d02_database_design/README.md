@@ -10,7 +10,6 @@
 - [X] Breakout: Convert 2 Spreadsheets (15 - 20 mins)
 
 
-
 ## Keys
 - primary key - the unique identifier for a record
   * field `id` for every table
@@ -51,6 +50,16 @@
   `SELECT * FROM users WHERE active = TRUE`
 
 
-
 ## Today's Breakout
 - [our gist](https://gist.github.com/jcbain/175b1c6ca6263343329f41f4105d8404)
+
+### Our ERD
+
+![erd](./chef_restaurant_erd.png)
+
+
+## Useful Links
+* [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)
+* [Postgres Data Types](http://www.postgresqltutorial.com/postgresql-data-types/)
+* [Relationship Types](http://etutorials.org/SQL/Database+design+for+mere+mortals/Part+II+The+Design+Process/Chapter+10.+Table+Relationships/Types+of+Relationships/)
+* [draw.io (online ERD)](https://www.draw.io/)
