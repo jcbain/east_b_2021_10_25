@@ -1,0 +1,11 @@
+.sprite-container {
+  position: relative;
+  height: 48px;
+  width: 48px;
+  overflow: hidden;
+}
+
+.sprite-img {
+  top: 0;
+  position: absolute;
+}
