@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 20px;
+}
+
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 30%;
+}
+
+header > h1 {
+  font-size: 36px;
+  color: #303030;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: #a55;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.counter {
+  padding-left: 20px;
+}
